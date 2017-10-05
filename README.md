@@ -27,6 +27,8 @@ Anyone, as long as they respect the rules of the mappack (see below). They don't
 * **The map must compile with the Q3Map2 and BSPC programs included in the repo.** Failure to do so means that there's a building error with the pack which must be solved ASAP.
 
 ### For testers
+* **Testing is done with OpenArena ver. 0.8.8**.
+** Optionally, you can download the [gamecode](http://openarena.ws/board/index.php?topic=5296.0) and [(Windows-only) engine](http://openarena.ws/board/index.php?topic=5263.0), in order to test the maps with the Possession gametype.
 * **Make sure there're no other pk3 files in the baseoa folder other than the default ones and the maps from the pack.** The reason is that non-official PK3 getting in the way of testing causes both mappers and testers alike unnecessary headaches.
 * **After every new version of the pack, clean up the testing folder.** Otherwise, there may possibly be issues which were already solved.
 * **PLEASE! Report immediately any doubt about GPLv2 compliance of some assets used in the package.** (i.e. "I thought texture pack X was realeased under CC license...") Once the pack is released, it just adds burden to know something which isn't meant to be there should be deleted.
