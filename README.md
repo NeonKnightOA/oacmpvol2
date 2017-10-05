@@ -50,62 +50,65 @@ Anyone, as long as they respect the rules of the mappack (see below). They don't
 * **Place bases/markers where the weapons should spawn.** This also counts for powerups/holdables, the Runes, and the Megahealth.
 * **Design your maps with newbs/bots in mind**, and add shortcuts for seasoned players, but avoid as much as possible the obligatory need of knowing trickjumps in order to reach certain items which cannot be accessed normally on foot. As an example, empty small towers which can only be reached by trickjumping are OK, but the same towers holding items is BAD. Remember that even the original Q3 was enjoyable without the need of knowing trickjumping.
 * Regarding gametype-specific map layout:
-** Regarding the size of your map and the multi-gametype-support nature of OA maps, it may be a good idea to **consider support for other gametypes**. Here's a hint checklist:
-*** **Every FFA map is able to support Last Man Standing** regardless of size, so it's a good idea to specify this in the .arena file.
-*** **Big FFA maps are able to support Team Deathmatch**.
-*** **Small FFA maps are able to support Tournament**.
-*** **Any CTF map is able to support** each and every single of the objective-based team gametypes, namely **CTF, Overload, CTF Elimination and Double Domination**.
-*** **CTF maps with a contested central area can support One Flag CTF and Harvester**.
-*** **Big maps and CTF-based maps can also support Elimination**.
-*** **Maps with very distinguishable areas can support Domination**.
-** For Elimination, it's advisable to **use team_CTF_[red/blue]spawn spawnpoints**, so each team has a place of start.
-** Even if your map isn't designed for FFA, **it's always a good idea to place many (16-20) info_player_deathmatch starting points with "Initial" set to true (spawnflags 1).** There's always the chance that people may end up playing deathmatch on your map even if it isn't designed for it.
-*** Likewise, **place many team_CTF_*player/spawn starting points for CTF-based maps (10 per team is OK)**.
-** For FFA-based maps, unless you're building your map with other gametype support (such as 1FCTF and (Harvester) in mind, avoid symmetry as much as possible. Symmetry halves the gameplay.
+    * Regarding the size of your map and the multi-gametype-support nature of OA maps, it may be a good idea to **consider support for other gametypes**. Here's a hint checklist:
+        * **Every FFA map is able to support Last Man Standing** regardless of size, so it's a good idea to specify this in the .arena file.
+        * **Big FFA maps are able to support Team Deathmatch**.
+        * **Small FFA maps are able to support Tournament**.
+        * **Any CTF map is able to support** each and every single of the objective-based team gametypes, namely **CTF, Overload, CTF Elimination and Double Domination**.
+        * **CTF maps with a contested central area can support One Flag CTF and Harvester**.
+        * **Big maps and CTF-based maps can also support Elimination**.
+        * **Maps with very distinguishable areas can support Domination**.
+    * For Elimination, it's advisable to **use team_CTF_[red/blue]spawn spawnpoints**, so each team has a place of start.
+    * Even if your map isn't designed for FFA, **it's always a good idea to place many (16-20) info_player_deathmatch starting points with "Initial" set to true (spawnflags 1).** There's always the chance that people may end up playing deathmatch on your map even if it isn't designed for it.
+    * Likewise, **place many team_CTF_*player/spawn starting points for CTF-based maps (10 per team is OK)**.
+    * For FFA-based maps, unless you're building your map with other gametype support (such as 1FCTF and (Harvester) in mind, avoid symmetry as much as possible. Symmetry halves the gameplay.
 * Regarding risk vs. reward:
-** If you have an issue placing the Railgun, bear in mind that **your map will be also played on Instagib mode**. **Try to neutralize areas where the Railgun may be overpowered.**
-** If you use any of the TA weapons in CTF maps as regular weapons, remember to add the Runes in order to counter them. Where the Runes cannot be supported, they can be used as Superweapons like the BFG. 
+    * If you have an issue placing the Railgun, bear in mind that **your map will be also played on Instagib mode**. **Try to neutralize areas where the Railgun may be overpowered.**
+    * If you use any of the TA weapons in CTF maps as regular weapons, remember to add the Runes in order to counter them. Where the Runes cannot be supported, they can be used as Superweapons like the BFG. 
 
 ### On testing
 
 If you don't know where to start with testing, here's some questions to be answered:
 
 * IN GENERAL
-** Can a Tony player be visible at all times? (i.e. is the map well-lit)
-** Is there any bug in the map?
-*** Is it intended, unintended and will be fixed, or unintended but won't be fixed?
-** How easy is the map to navigate?
-*** Can the bots navigate the map well?
-*** How obstructive are the hazardous areas to the map's flow?
-*** Can the player remember key areas of the map without having to resort to location names?
-** How well distributed are the items across the map?
-*** Is there a cache of powerful weapons and items somewhere in the map?
-*** How worthy are the items near the hazardous area? And in the area itself?
-*** Are there spots for hiding? How easy is to locate them?
-*** How many chokepoints are in the map?
+    * Can a Tony player be visible at all times? (i.e. is the map well-lit)
+    * Is there any bug in the map?
+        * Is it intended, unintended and will be fixed, or unintended but won't be fixed?
+    * How easy is the map to navigate?
+        * Can the bots navigate the map well?
+        * How obstructive are the hazardous areas to the map's flow?
+        * Can the player remember key areas of the map without having to resort to location names?
+    * How well distributed are the items across the map?
+        * Is there a cache of powerful weapons and items somewhere in the map?
+        * How worthy are the items near the hazardous area? And in the area itself?
+    * Are there spots for hiding? How easy is to locate them?
+    * How many chokepoints are in the map?
 * BASE-BASED TEAM GAMETYPES (CTF, One Flag CTF, Harvester, Overload, CTF Elimination)
-** How easy is the map to navigate? (Continuation - test with Nightmare Tony bots as enemies/teammates)
-*** How easy is the enemy base/objective to find?
-*** How easy are the bases to attack?
-*** How easy are the bases to defend?
-*** How long does it take to capture a flag in the shortest route without trickjumping?
-*** How long does it take to capture a flag in the longest route without trickjumping?
-*** Aside of the enemies, was there another obstacle to the capture which broke too much the flow of the map?
-*** How many routes does the map have between the flags (not the bases)?
-*** Since the map will be played in Instagib mode...
-**** Are the chokepoints well protected from possible campers/snipers?
-**** Is there any hazardless (including water) route protected from snipers?
-**** Do the corridors contain any kind of cover?
-** How easy is to make a flag capture? (CTF/CTF Elimination)
-** How easy is to get the neutral objective and score at the enemy objective? (One Flag CTF/Harvester)
-** How easy is to attack the enemy base? (CTF/Overload/CTF Elimination)
+    * How easy is the map to navigate? (Continuation - test with Nightmare Tony bots as enemies/teammates)
+        * How easy is the enemy base/objective to find?
+        * How easy are the bases to attack?
+        * How easy are the bases to defend?
+        * How long does it take to capture a flag in the shortest route without trickjumping?
+        * How long does it take to capture a flag in the longest route without trickjumping?
+        * Aside of the enemies, was there another obstacle to the capture which broke too much the flow of the map?
+        * How many routes does the map have between the flags (not the bases)?
+    * Since the map will be played in Instagib mode...
+        * Are the chokepoints well protected from possible campers/snipers?
+        * Is there any hazardless (including water) route protected from snipers?
+        * Do the corridors contain any kind of cover?
+    * How easy is to make a flag capture? (CTF/CTF Elimination)
+    * How easy is to get the neutral objective and score at the enemy objective? (One Flag CTF/Harvester)
+    * How easy is to attack the enemy base? (CTF/Overload/CTF Elimination)
 * CONTROL POINT-BASED GAMETYPES (Double Domination/Single Domination/Possession)
-** How easy is to find a control point/the flag?
-** How easy is to capture a control point/the flag?
-** How easy is to maintain the control of a control point/the flag?
+    * How easy is to find a control point/the flag?
+    * How easy is to capture a control point/the flag?
+    * How easy is to maintain the control of a control point/the flag?
 
 ## How to test
 
-You can download the current repo via commandline with _git clone https://github.com/NeonKnightOA/oacmpvol2_ or by going to the URL and .
+You can download the current repo via commandline with *git clone https://github.com/NeonKnightOA/oacmpvol2* or by going to the URL and click *Clone/Download* then renaming the zip file as a pk3. Put that into your testing folder and you're good to go!
 
 ## Related links
+* [OACMP @ OpenArena Wiki](http://openarena.wikia.com/wiki/OpenArena_Community_Mappack)
+* [Forum thread](http://openarena.ws/board/index.php?topic=4901.0)
+* [Commits thread](http://openarena.ws/board/index.php?topic=4948.0)
