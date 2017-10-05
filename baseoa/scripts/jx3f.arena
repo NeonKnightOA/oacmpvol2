@@ -1,0 +1,9 @@
+{
+map		"jx3f"
+longname	"Nya"
+author		"Jan Groothuijse"
+bots		"beret nekoyss grism"
+fraglimit	25
+timelimit	15
+type		"ffa tourney team freeze clan"
+}

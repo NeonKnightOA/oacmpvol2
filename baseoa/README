@@ -1,0 +1,15 @@
+Map:
+
+compiled to bsp using:
+ -light -fast -super 3 -dirty -filter
+compiled aas using
+ -optimize -forcesidesvisible
+for source see maps/oajgdm4.map
+
+Textures:
+evening textures, oajg_dm4/tele.tga, oajg/*, made using the GIMP
+
+oajg_dm4/clouds.tga recolored version of skies/clouds.tga in oa
+back.jpg direct copy of the pul1-duel map by pulchr
+
+oa_dsi textures where released by neon_knight, included here to remove dependancy

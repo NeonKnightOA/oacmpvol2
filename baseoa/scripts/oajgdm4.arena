@@ -1,0 +1,9 @@
+{
+map		"oajgdm4"
+longname	"Nya"
+author		"Jan Groothuijse"
+bots		"assassin broadklin"
+fraglimit	25
+timelimit	15
+type		"ffa tourney team lms elimination"
+}
