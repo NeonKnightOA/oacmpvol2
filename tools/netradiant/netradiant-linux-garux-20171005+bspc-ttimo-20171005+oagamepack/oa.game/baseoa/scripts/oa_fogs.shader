@@ -2,7 +2,7 @@ textures/fogs/fogyou
 {
 		surfaceparm trans
 		surfaceparm nonsolid
-		surfaceparm fog
+		surfaceparm fogqer_trans 0.5
 		surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.458824 0.862745 0.411765 ) 666
@@ -12,7 +12,7 @@ textures/fogs/fogoff
 {
 		surfaceparm trans
 		surfaceparm nonsolid
-		surfaceparm fog
+		surfaceparm fogqer_trans 0.5
 		surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.458824 0.862745 0.411765 ) 666
@@ -32,7 +32,7 @@ textures/sfx/hellfog_mini_dm10
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.458824 0.862745 0.411765 ) 300
@@ -53,7 +53,7 @@ textures/sfx/xblackfog
 {
         surfaceparm trans
         surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nomarks
         cull disable
         fogparms ( 0.05 0.05 0.05 ) 500
@@ -63,7 +63,7 @@ textures/fogs/fog_orange
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.5 0.2 0.0 ) 512
@@ -79,7 +79,7 @@ textures/sfx2/ouchfog
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_globaltexture
 	cull none
@@ -96,7 +96,7 @@ textures/sfx2/dist_fog
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_globaltexture
 	cull none
@@ -107,7 +107,7 @@ textures/sfx/xnotsodensegreyfog
 {
         surfaceparm trans
         surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nomarks
         cull disable
         fogparms ( 0.4784 0.4784 0.4784 ) 600

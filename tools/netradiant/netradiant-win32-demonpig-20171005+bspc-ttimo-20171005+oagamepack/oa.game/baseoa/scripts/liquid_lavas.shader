@@ -1,11 +1,11 @@
 lavalol
 {
-	surfaceparm fog
-	surfaceparm lava
+	surfaceparm fogqer_trans 0.5
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	surfaceparm lightfilter
 	cull disable
 	deformVertexes wave 256 sin 0 7 0 0.4 
@@ -34,12 +34,12 @@ lavalol
 
 textures/liquids/lavahell
 {
-	surfaceparm fog
-	surfaceparm lava
+	surfaceparm fogqer_trans 0.5
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	surfaceparm lightfilter
 	cull disable
 	deformVertexes wave 256 sin 0 7 0 0.4 
@@ -69,12 +69,12 @@ textures/liquids/lavahell
 textures/liquids/lavahell_750
 {
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm fog
-	surfaceparm lava
+	surfaceparm fogqer_trans 0.5
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	surfaceparm lightfilter
 	tessSize 32
 	q3map_surfacelight 750
@@ -103,12 +103,12 @@ textures/liquids/lavahell_750
 textures/liquids/softlava
 {
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm fog
-	surfaceparm lava
+	surfaceparm fogqer_trans 0.5
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	surfaceparm lightfilter
 	cull disable
 	q3map_surfacelight 666
@@ -131,11 +131,11 @@ textures/liquids/lavahell_simple
 {
 	qer_editorimage textures/liquids/lava.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	surfaceparm lightfilter
 	cull disable
 	q3map_surfacelight 666
@@ -152,7 +152,7 @@ textures/liquids/flatlavahell_1500
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -172,7 +172,7 @@ textures/liquids/lavahell2
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -192,7 +192,7 @@ textures/liquids/lavahellflat_400
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -211,7 +211,7 @@ textures/liquids/lavahelldark
 {
 	qer_editorimage textures/liquids/lavahell3.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -239,7 +239,7 @@ textures/liquids/lavahell_1000
 {
 	qer_editorimage textures/liquids/lavahell3.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -259,7 +259,7 @@ textures/liquids/lavahell_xdm1
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -285,7 +285,7 @@ textures/liquids/lavahell_2000
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -305,7 +305,7 @@ textures/liquids/lavahell_2500
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -332,7 +332,7 @@ textures/liquids/lavahell_2500_subd
 {
 	qer_editorimage textures/liquids/lavahell2.tga
 	q3map_lightimage textures/liquids/lavahell.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks

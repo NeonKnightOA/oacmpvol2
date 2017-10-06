@@ -57,7 +57,7 @@ textures/czest2ctf/darkfog
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.05 0.05 0.05 ) 1024

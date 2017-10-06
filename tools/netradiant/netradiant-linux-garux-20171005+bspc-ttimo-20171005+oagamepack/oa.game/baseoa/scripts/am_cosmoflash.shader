@@ -726,7 +726,7 @@ textures/cosmo_liquids/plasma_red
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm noimpact
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_surfacelight 1250
 	cull disable
@@ -1627,7 +1627,7 @@ textures/cosmo_liquids/icewater
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
-	surfaceparm slime
+	surfaceparm slimeqer_trans 0.5
 	cull disable
     surfaceparm	fog
     fogparms ( 0.115686 0.178431 0.333333 ) 128

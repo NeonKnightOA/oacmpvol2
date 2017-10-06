@@ -28,8 +28,8 @@ textures/nki_shaders/tropicalwater
 	surfaceparm lightfilter
 	surfaceparm nomarks
 	surfaceparm trans
-//	surfaceparm fog
-	surfaceparm water
+//	surfaceparm fogqer_trans 0.5
+	surfaceparm waterqer_trans 0.5
 //	surfaceparm alphashadow
 	surfaceparm nolightmap
 	//deformVertexes wave <div> <func> <base> <amplitude> <phase> <freq>
@@ -66,7 +66,7 @@ textures/nki_shaders/lavared_1k5
 	qer_editorimage textures/nki/nki_lava4.tga
 	q3map_lightmapBrightness 2.0
 	//q3map_lightmapFilterRadius self other
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm noimpact
@@ -94,7 +94,7 @@ textures/nki_shaders/lavabright_1k5
 
 	q3map_lightimage textures/nki/nki_lava5.tga  // q3map_lightimage must appear before qer_editorimage !!
 	qer_editorimage textures/nki/nki_lava5.tga
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 //	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm noimpact

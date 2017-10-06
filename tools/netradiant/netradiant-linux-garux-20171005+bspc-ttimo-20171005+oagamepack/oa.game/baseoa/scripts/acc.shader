@@ -137,7 +137,7 @@ textures/acc_dm3/brwnwater
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull disable
 	{
 		map textures/acc_dm3/brwnwater.tga
@@ -409,7 +409,7 @@ textures/acc_dm5/brwnwater
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull disable
 	deformVertexes wave 32 sin .7 .7 .7 .5
 	{
