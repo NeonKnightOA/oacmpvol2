@@ -487,9 +487,10 @@ textures/liquids/clear_calm2
 
 textures/liquids/hydrowater
 {
+	qer_editorimage textures/liquids/pool2.tga
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_trans 0.5
 	cull disable
 	deformVertexes wave 256 sin 0 7 0 0.4
 	fogparms ( 0.215686 0.278431 0.333333 ) 1024

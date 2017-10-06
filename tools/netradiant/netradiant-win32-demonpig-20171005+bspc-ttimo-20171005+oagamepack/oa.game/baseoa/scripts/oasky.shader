@@ -51,6 +51,7 @@ textures/skies/industrysky
 
 textures/skies/moonsky
 {
+	qer_editorimage textures/skies/topclouds.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm sky
