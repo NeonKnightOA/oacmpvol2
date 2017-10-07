@@ -31,7 +31,7 @@ textures/sfx/portal_sfx_ring
 
 textures/sfx/hellfog_pj_dm10
 {
-	qer_editorimage textures/sfx/hellfog
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -55,6 +55,7 @@ textures/sfx/hellfog_pj_dm10
 
 textures/sfx/hellfog_mini_dm10
 {
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -76,7 +77,7 @@ textures/sfx/hellfog_mini_dm10
 
 textures/sfx/hellfog_tim_dm14
 {
-	qer_editorimage textures/sfx/hellfog
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -100,6 +101,7 @@ textures/sfx/hellfog_tim_dm14
 
 textures/sfx/kc_hellfog_1k
 {
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -124,6 +126,7 @@ textures/sfx/kc_hellfog_1k
 // obsolete?
 textures/sfx/hellfog_1k
 {
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -148,6 +151,7 @@ textures/sfx/hellfog_1k
 // obsolete?
 textures/sfx/hellfog
 {
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -253,6 +257,7 @@ textures/sfx/q3dm14fog
 // and we needed a red fog :)
 textures/sfx/hellfogdense
 {
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
@@ -388,8 +393,8 @@ textures/sfx/fog_intel
 }
 
 textures/sfx/proto_hellfog
-
 {
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5

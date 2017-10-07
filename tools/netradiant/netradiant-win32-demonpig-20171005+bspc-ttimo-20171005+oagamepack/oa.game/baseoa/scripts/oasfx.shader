@@ -65,6 +65,8 @@ textures/sfx/xflame4
 
 textures/sfx/beam
 {
+	qer_trans 0.5
+	qer_nocarve
         surfaceparm trans	
         surfaceparm nomarks	
         surfaceparm nonsolid
@@ -80,6 +82,8 @@ textures/sfx/beam
 
 textures/sfx/beam_dusty2
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/sfx/beam_1.jpg
         surfaceparm trans	
         surfaceparm nomarks	
@@ -101,6 +105,8 @@ textures/sfx/beam_dusty2
 
 textures/sfx/beam_blue
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/sfx/beam_blue4.jpg
 	surfaceparm trans	
         surfaceparm nomarks	
@@ -117,6 +123,8 @@ textures/sfx/beam_blue
 
 textures/sfx/beam_red
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/sfx/beam_red.jpg
 	surfaceparm trans	
         surfaceparm nomarks	
@@ -132,8 +140,9 @@ textures/sfx/beam_red
 }
 
 textures/sfx/beam_waterlight2
-
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/sfx/beam_waterlight.jpg
 	surfaceparm trans	
         surfaceparm nomarks	
@@ -150,8 +159,9 @@ textures/sfx/beam_waterlight2
 }
 
 textures/sfx/lavabeam
-
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/sfx/lavabeam.jpg
 	surfaceparm trans	
         surfaceparm nomarks	
