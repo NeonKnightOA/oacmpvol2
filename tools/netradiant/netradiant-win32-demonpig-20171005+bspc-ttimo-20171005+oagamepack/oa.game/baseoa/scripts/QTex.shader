@@ -3,7 +3,7 @@ textures/water
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	fogparms ( 0.545098 0.545098 0.796079 ) 1337
 	{
 		map textures/liquids/pool3d_3e.tga
@@ -30,7 +30,7 @@ textures/04mwat2
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	fogparms ( 0.611765 0.709804 0.721569 ) 1337
 	{
 		map textures/liquids/pool3d_3e.tga
@@ -57,7 +57,7 @@ textures/water2
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	fogparms ( 0.611765 0.709804 0.721569 ) 1337
 	{
 		map textures/liquids/pool3d_3e.tga
@@ -84,7 +84,7 @@ textures/water0
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	fogparms ( 0.635294 0.701961 0.701961 ) 1337
 	{
 		map textures/liquids/pool3d_3e.tga
@@ -111,7 +111,7 @@ textures/04mwat1
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	cull disable
 	fogparms ( 0.560784 0.435294 0.137255 ) 1337
 	{
@@ -139,7 +139,7 @@ textures/water1
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	cull disable
 	fogparms ( 0.560784 0.435294 0.137255 ) 1337
 	{
@@ -290,6 +290,7 @@ textures/ground1_2
 
 textures/ground1_6
 {
+	qer_editorimage textures/stone/pjrock6.tga
 	{
 		map textures/stone/pjrock6.tga
 		rgbGen const ( 0.611765 0.788235 0.560784 )
@@ -310,6 +311,7 @@ textures/ground1_6
 
 textures/rock1_2
 {
+	qer_editorimage textures/stone/pjrock21.tga
 	{
 		map textures/stone/pjrock21.tga
 		rgbGen const ( 0.447059 0.345098 0.196078 )
