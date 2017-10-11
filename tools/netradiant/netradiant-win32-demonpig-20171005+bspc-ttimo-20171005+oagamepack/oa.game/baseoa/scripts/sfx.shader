@@ -301,6 +301,7 @@ textures/sfx/xdensegreyfog
 
 textures/sfx/xfinalfog
 {
+	qer_editorimage textures/sfx/fogeditorimages/xfinalfog
         surfaceparm trans
         surfaceparm nonsolid
 	surfaceparm fog	qer_nocarveqer_trans 0.5
